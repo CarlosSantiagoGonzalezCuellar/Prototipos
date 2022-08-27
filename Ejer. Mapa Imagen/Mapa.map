@@ -1,0 +1,7 @@
+<img alt="HTML - Ejercicio mapa de imagen.jpg" usemap="#HTML - Ejercicio mapa de imagen" src="file:///C:/Users/santiago cuellar/Downloads/Material_ENLACES_IMAGENES(2)/Material_ENLACES_IMAGENES/HTML - Ejercicio mapa de imagen.jpg"/>
+<map id="HTML - Ejercicio mapa de imagen" name="HTML - Ejercicio mapa de imagen">
+    <area alt="" href="" shape="rect" coords="227,265,329,368" color="4278190080"/>
+    <area alt="" href="" shape="rect" coords="337,266,438,367" color="4278190080"/>
+    <area alt="" href="" shape="rect" coords="226,375,329,477" color="4278190080"/>
+    <area alt="" href="" shape="rect" coords="338,375,438,477" color="4278190080"/>
+</map>

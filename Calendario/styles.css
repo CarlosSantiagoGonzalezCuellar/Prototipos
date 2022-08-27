@@ -1,0 +1,118 @@
+/*instrucciones generales*/
+* {
+  margin: auto;
+}
+/*cabecera de la página*/
+h1 {
+  color: #fffafa;
+  text-align: center;
+  padding: 0.5em;
+}
+/*div principal del calendario*/
+#calendario {
+  border: 4px double black;
+  max-width: 536px;
+  background-color: #fffafa;
+  text-align: center;
+}
+/*tabla del calendario*/
+#diasc {
+  border: 1px solid black;
+  border-collapse: separate;
+  border-spacing: 4px;
+  border-radius: 3.5%;
+}
+#diasc th,
+#diasc td {
+  font: normal 14pt arial;
+  width: 70px;
+  height: 30px;
+}
+#diasc th {
+  color: #000000;
+  background-color: #5ecdec;
+}
+#diasc td {
+  color: #4fa13a;
+  background-color: #9bf5ff;
+}
+/*línea de la fecha actual*/
+#fechaactual {
+  font-family: sans-serif;
+  padding: 0.4em;
+}
+#fechaactual i {
+  cursor: pointer;
+}
+#fechaactual i:hover {
+  color: blue;
+  text-decoration: underline;
+}
+/*formulario de busqueda de fechas*/
+#buscafecha {
+  background-color: #000000;
+  color: #9bf5ff;
+  padding: 5px;
+}
+#buscafecha select,
+#buscafecha input {
+  background-color: #9bf5ff;
+  color: #000000;
+  font: bold 10pt arial;
+}
+#buscafecha [type="text"] {
+  text-align: center;
+}
+#buscafecha [type="button"] {
+  cursor: pointer;
+}
+/*cabecera del calendario*/
+#anterior {
+  float: left;
+  width: 100px;
+  font: bold 12pt arial;
+  padding: 0.5em 0.1em;
+  cursor: pointer;
+}
+#posterior {
+  float: right;
+  width: 100px;
+  font: bold 12pt arial;
+  padding: 0.5em 0.1em;
+  cursor: pointer;
+}
+#anterior:hover {
+  color: blue;
+  text-decoration: underline;
+}
+#posterior:hover {
+  color: blue;
+  text-decoration: underline;
+}
+#titulos {
+  font: normal 20pt "arial black";
+  padding: 0.2em;
+}
+
+[class*=underlay] {
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  
+  .underlay-photo {
+    -webkit-animation: hue-rotate 6s infinite;
+            animation: hue-rotate 6s infinite;
+    background: url("https://31.media.tumblr.com/41c01e3f366d61793e5a3df70e46b462/tumblr_n4vc8sDHsd1st5lhmo1_1280.jpg");
+    background-size: cover;
+    -webkit-filter: grayscale(30%);
+    z-index: -1;
+  }
+  
+  .underlay-black {
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+  }
+  
